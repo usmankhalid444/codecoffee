@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/codecoffee/static/css/main.cb58af33.chunk.css",
+    "main.js": "/codecoffee/static/js/main.3397c93c.chunk.js",
+    "main.js.map": "/codecoffee/static/js/main.3397c93c.chunk.js.map",
+    "runtime-main.js": "/codecoffee/static/js/runtime-main.aaff0785.js",
+    "runtime-main.js.map": "/codecoffee/static/js/runtime-main.aaff0785.js.map",
+    "static/css/2.a3ab5857.chunk.css": "/codecoffee/static/css/2.a3ab5857.chunk.css",
+    "static/js/2.748327e0.chunk.js": "/codecoffee/static/js/2.748327e0.chunk.js",
+    "static/js/2.748327e0.chunk.js.map": "/codecoffee/static/js/2.748327e0.chunk.js.map",
+    "index.html": "/codecoffee/index.html",
+    "static/css/2.a3ab5857.chunk.css.map": "/codecoffee/static/css/2.a3ab5857.chunk.css.map",
+    "static/css/main.cb58af33.chunk.css.map": "/codecoffee/static/css/main.cb58af33.chunk.css.map",
+    "static/js/2.748327e0.chunk.js.LICENSE.txt": "/codecoffee/static/js/2.748327e0.chunk.js.LICENSE.txt",
+    "static/media/c1.79d0ff73.svg": "/codecoffee/static/media/c1.79d0ff73.svg",
+    "static/media/c2.6cdcdc92.svg": "/codecoffee/static/media/c2.6cdcdc92.svg",
+    "static/media/c3.dca100bc.svg": "/codecoffee/static/media/c3.dca100bc.svg",
+    "static/media/client-img.f7c9e90f.jpg": "/codecoffee/static/media/client-img.f7c9e90f.jpg",
+    "static/media/style.scss": "/codecoffee/static/media/sucess.ba34be63.jpg",
+    "static/media/p1.1551130b.jpg": "/codecoffee/static/media/p1.1551130b.jpg",
+    "static/media/p2.ba34be63.jpg": "/codecoffee/static/media/p2.ba34be63.jpg",
+    "static/media/p3.044c0a06.jpg": "/codecoffee/static/media/p3.044c0a06.jpg",
+    "static/media/p4.9fcb68e6.jpg": "/codecoffee/static/media/p4.9fcb68e6.jpg",
+    "static/media/p5.30e44025.jpg": "/codecoffee/static/media/p5.30e44025.jpg",
+    "static/media/p6.6e77e659.jpg": "/codecoffee/static/media/p6.6e77e659.jpg",
+    "static/media/p7.37fd402f.jpg": "/codecoffee/static/media/p7.37fd402f.jpg",
+    "static/media/p8.c1b454c1.jpg": "/codecoffee/static/media/p8.c1b454c1.jpg",
+    "static/media/p9.d1a091fa.jpg": "/codecoffee/static/media/p9.d1a091fa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaff0785.js",
+    "static/css/2.a3ab5857.chunk.css",
+    "static/js/2.748327e0.chunk.js",
+    "static/css/main.cb58af33.chunk.css",
+    "static/js/main.3397c93c.chunk.js"
+  ]
+}
