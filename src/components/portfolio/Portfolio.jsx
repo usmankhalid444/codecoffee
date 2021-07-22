@@ -23,7 +23,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="row">
-          <div className="col-3">
+          <div className="col-md-3">
             <PortfolioNavigation />
           </div>
           <div className="col-9 projects">

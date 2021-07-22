@@ -10,6 +10,8 @@ import Benefits from "./components/Benefits";
 import Portfolio from "./components/portfolio/Portfolio";
 import Pricing from "./components/pricing/Pricing.jsx";
 import Editor from "./components/editor/Editor";
+import Info from "./components/Info";
+import Footer from "./components/Footer";
 function Home() {
   return (
     <>
@@ -22,6 +24,8 @@ function Home() {
       <Portfolio />
       <Pricing />
       <Editor />
+      <Info />
+      <Footer />
     </>
   );
 }

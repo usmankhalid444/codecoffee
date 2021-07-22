@@ -17,6 +17,7 @@ body {
   z-index: 5;
   background-color: white;
   top: 0;
+  box-shadow: 0px 15px 10px -20px gray;
   // background-color: aquamarine;
   .logo {
     color: #377dff;
@@ -168,11 +169,13 @@ body {
   .content {
     padding: 60px;
     h1 {
-      font-size: 2rem;
+      margin-top: 20px;
+      font-size: 1.7rem;
+      font-weight: bold;
     }
     p {
       color: gray;
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
   .score {
@@ -242,6 +245,7 @@ body {
 .projects {
   max-height: 100vh;
   overflow: scroll;
+  overflow-x: hidden;
   &::-webkit-scrollbar {
     width: 10px;
   }
@@ -294,7 +298,12 @@ body {
   }
 }
 .editor {
+  background-color: #f7f8fb;
+  border-radius: 15%;
+}
+.editor-panel {
   width: 45%;
+  min-width: 40%;
   min-height: 58vh;
   border-radius: 10px;
   padding: 35px;
@@ -307,12 +316,108 @@ body {
     color: #00c9a7;
   }
 }
-.license-btnn {
-  color: red;
-  background-color: #377dff;
-  font-weight: bold;
-  padding: 10px;
+.p-heading {
+  button {
+    margin-top: 30px;
+    color: white;
+    background-color: #377dff;
+    font-weight: bold;
+    padding: 10px 20px;
+    // width: 100px;
+    &:hover {
+      transform: translateY(-3px);
+      background-color: #377dff;
+      transition: 0.2s;
+    }
+  }
+  .technologies {
+    width: 50%;
+    height: 15vh;
+    background-image: url(./components/editor/imgs/technologies.png);
+    background-size: 100% 100%;
+  }
 }
+.info {
+  margin-top: 50px;
+  text-align: center;
+  .icon {
+    font-size: 40px;
+    margin: 10px;
+    color: #21325b;
+  }
+}
+.footer-container {
+  margin-top: 50px;
+  background-color: #21325b;
+  padding: 50px;
+  color: white;
+}
+.footer {
+  h1 {
+    color: white;
+    font-size: 1.2rem;
+  }
+  ul {
+    li {
+      list-style: none;
+      margin-top: 12px;
+      a {
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: #bdc2ce;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+  .links {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #48577a;
+  }
+  .info {
+    text-align: center;
+    p {
+      color: gray;
+      font-size: 0.9rem;
+    }
+  }
+}
+.social {
+  margin-top: 10px;
+  ul {
+    li {
+      list-style-type: none;
+      float: left;
+      margin: 10px;
+      a {
+        font-size: 0.9rem;
+        color: #bdc2ce;
+        text-decoration: none;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+  .icon {
+    color: #bdc2ce;
+    font-size: 35px;
+    margin-left: 5px;
+    &:hover {
+      color: white;
+    }
+  }
+  button {
+    background-color: #37466c;
+    margin-left: 5px;
+    color: white;
+    &:hover {
+      background-color: #377dff;
+    }
+  }
+}
+
 // media queries
 @media only screen and (max-width: 1200px) {
   .header {
@@ -327,6 +432,9 @@ body {
           margin: 10px;
         }
       }
+    }
+    .toggler {
+      display: block;
     }
     .toogle-btn {
       // background-color: red;
@@ -343,6 +451,7 @@ body {
       }
     }
   }
+
   .motivation {
     .text {
       padding: 20px;
@@ -350,5 +459,16 @@ body {
         font-size: 2.5rem;
       }
     }
+  }
+  .editor-panel {
+    width: 100%;
+  }
+  .project {
+    height: auto;
+  }
+  .projects {
+    margin: 40px 0;
+    padding: 0;
+    width: auto;
   }
 }

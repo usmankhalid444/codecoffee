@@ -4,12 +4,22 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import DehazeIcon from "@material-ui/icons/Dehaze";
 function Header() {
+  const toggle = () => {
+    const navlinks = document.querySelector(".navlinks");
+    console.log(navlinks);
+    navlinks.classList.toggle("toggler");
+  };
   return (
     <>
       <header className="header">
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-2 logo">CodendCoffee</div>
+            <div className="toogle-btn col-8 ">
+              <Button>
+                <DehazeIcon fontSize="large" onClick={toggle} />
+              </Button>
+            </div>
             <div className="col-md-8  navlinks">
               <ul>
                 <li>
@@ -38,11 +48,6 @@ function Header() {
                   </a>
                 </li>
               </ul>
-            </div>
-            <div className="toogle-btn col-8 ">
-              <Button>
-                <DehazeIcon fontSize="large" />
-              </Button>
             </div>
           </div>
         </div>
