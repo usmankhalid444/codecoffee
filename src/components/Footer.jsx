@@ -18,7 +18,7 @@ function Footer() {
     <>
       <div className="container-fluid footer-container">
         <div className="container footer">
-          <div className="row links">
+          <div className="row links gy-5 gx-5">
             <div className="col-md-3">
               <ul>
                 <li>
@@ -37,7 +37,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 ">
               <ul>
                 <li>
                   <h1>Company</h1>
@@ -59,7 +59,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 ">
               <ul>
                 <li>
                   <h1>Features</h1>
@@ -132,7 +132,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-4 ">
+            <div className="col-md-4">
               <FacebookIcon className="icon" />
               <InstagramIcon className="icon" />
               <LinkedInIcon className="icon" />
@@ -144,13 +144,15 @@ function Footer() {
             </div>
           </div>
           <div className="row info">
-            <p>© Front. 2020 CodendCoffee. All rights reserved.</p>
-            <p>
-              When you visit or interact with our sites, services or tools, we
-              or our authorised service providers may use cookies for storing
-              information to help provide you with a better, faster and safer
-              experience and for marketing purposes.
-            </p>
+            <div className="col-12 ">
+              <p>© Front. 2020 CodendCoffee. All rights reserved.</p>
+              <p>
+                When you visit or interact with our sites, services or tools, we
+                or our authorised service providers may use cookies for storing
+                information to help provide you with a better, faster and safer
+                experience and for marketing purposes.
+              </p>
+            </div>
           </div>
         </div>
       </div>
